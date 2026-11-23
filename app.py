@@ -87,7 +87,7 @@ def analyser(avis):
 
 texte = st.text_area("Votre texte", height=160)
 fichier_texte = st.file_uploader("Ou importer un fichier texte", type=["txt"],
-                                 help="Si vous fournissez les deux, le fichier est analysé en priorité.")
+                                 )
 
 if st.button("Analyser", type="primary", width="stretch"):
     if fichier_texte is not None:
