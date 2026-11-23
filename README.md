@@ -25,7 +25,7 @@ Deux exemples vérifiés avec le modèle fourni :
 
 | Texte saisi | Catégorie affichée | Probabilité associée |
 | --- | --- | ---: |
-| `it is good.` | Positif | 99,9 % |
+| `Unfortunately, the frustration of being Dr. Goldberg's patient is a repeat of the experience I've had with so many other doctors in NYC -- good doctor, terrible staff.` | Négatif | 95,6 % |
 | `I have zero complaints about the service.` | Négatif | 82,5 % |
 
 Le second exemple illustre une erreur. La personne écrit qu’elle n’a aucun reproche à faire au service. Or le SVM représente ici chaque mot séparément et peut perdre le sens de l’expression « zero complaints ». Même une prédiction accompagnée d’un pourcentage élevé peut être incorrecte.
