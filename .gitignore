@@ -1,0 +1,29 @@
+# Données Yelp volumineuses que le notebook peut télécharger
+/yelp_review_polarity_csv/
+/yelp_review_polarity_csv.tgz
+
+# Archive de distribution générée sur Colab
+/app_yelp.zip
+
+# Environnements Python locaux
+/.venv/
+/venv/
+/env/
+/.conda/
+
+# Caches Python et points de sauvegarde Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Configuration privée locale
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Fichiers créés par le système
+.DS_Store
+Thumbs.db
+desktop.ini
